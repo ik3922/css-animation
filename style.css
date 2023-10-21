@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2019/08/06/02/16/mountains-4387209_1280.jpg);
+    background-size: cover;
+}
+
+
+div{
+    width: 150px;
+    height: 150px;
+    /* border: 2px solid; */
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url(https://w7.pngwing.com/pngs/861/240/png-transparent-orange-sun-orange-sphere-desktop-wallpaper-thumbnail.png);
+    /* box-shadow: 0px 0px 15px 10px; */
+    position: relative;
+    animation: aktan 2s infinite;
+    /* transition: 1s; */
+}
+
+@keyframes aktan{
+    0%{
+       left: 100px;
+    }
+    10%{
+        left: 150px;
+    }
+    20%{
+        left: 200px;
+    }
+    30%{
+        left: 400px;
+    }
+    40%{
+        left: 600px;
+    }
+    50%{
+        left: 800px;
+    }
+    60%{
+        left: 1000px;
+    }
+    70%{
+        left: 1200px;
+    }
+    80%{
+        left: 1400px;
+    }
+    90%{
+        left: 1600px;
+    }
+    100%{
+        left: 1800px;
+    }   
+}
